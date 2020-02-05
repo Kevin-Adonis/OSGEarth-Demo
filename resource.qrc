@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/icon"/>
+    <qresource prefix="/Icon">
+        <file>icon/amplify.png</file>
+        <file>icon/area-gra.png</file>
+        <file>icon/area.png</file>
+        <file>icon/close-black.png</file>
+        <file>icon/close.png</file>
+        <file>icon/copy.png</file>
+        <file>icon/create.png</file>
+        <file>icon/cut.png</file>
+        <file>icon/delete.png</file>
+        <file>icon/direction.png</file>
+        <file>icon/distance.png</file>
+        <file>icon/fixed.png</file>
+        <file>icon/Hand.png</file>
+        <file>icon/help.png</file>
+        <file>icon/info.png</file>
+        <file>icon/layer.png</file>
+        <file>icon/link.png</file>
+        <file>icon/maxmize-max-balck.png</file>
+        <file>icon/maxmize-max.png</file>
+        <file>icon/maxmize-normal-black.png</file>
+        <file>icon/maxmize-normal.png</file>
+        <file>icon/minimize-black.png</file>
+        <file>icon/minimize.png</file>
+        <file>icon/navigation.png</file>
+        <file>icon/normal.png</file>
+        <file>icon/open.png</file>
+        <file>icon/paste.png</file>
+        <file>icon/play.png</file>
+        <file>icon/plug.png</file>
+        <file>icon/reduce.png</file>
+        <file>icon/reset.png</file>
+        <file>icon/route.png</file>
+        <file>icon/save.png</file>
+        <file>icon/screen.png</file>
+        <file>icon/setting.png</file>
+        <file>icon/slope.png</file>
+        <file>icon/square-blue.png</file>
+        <file>icon/square-red.png</file>
+        <file>icon/target.png</file>
+        <file>icon/up.png</file>
+        <file>icon/vision.png</file>
+        <file>icon/world.png</file>
+        <file>icon/world_grid.png</file>
+        <file>icon/pen.png</file>
+    </qresource>
+    <qresource prefix="/QSS">
+        <file>qss/qss_For_map_gui/mainWindow.qss</file>
+        <file>qss/qss_For_map_gui/mainWindowTitleBar.qss</file>
+        <file>qss/TotalQSS.qss</file>
+    </qresource>
+</RCC>

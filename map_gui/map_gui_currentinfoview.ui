@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MAP_GUI_CurrentInfoView</class>
+ <widget class="QWidget" name="MAP_GUI_CurrentInfoView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="topMargin">
+    <number>18</number>
+   </property>
+   <property name="verticalSpacing">
+    <number>12</number>
+   </property>
+   <item row="0" column="0" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.522388 rgba(0, 0, 0, 255), stop:1 rgba(105, 15=85, 155, 255));</string>
+     </property>
+     <property name="text">
+      <string>基本：</string>
+     </property>
+     <property name="margin">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="nameLabel">
+     <property name="font">
+      <font>
+       <family>Microsoft YaHei</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>名称：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="nameLineEdit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="GJBLabel">
+     <property name="text">
+      <string>军标：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="GJBComboBox"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="signLabel">
+     <property name="text">
+      <string>标识：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="signLineEdit"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="groupLabel">
+     <property name="text">
+      <string>位置及运动信息：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="groupLineEdit"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="longtitudeLabel">
+     <property name="text">
+      <string>经度（度）：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="longtitudeLineEdit"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="latitudeLabel">
+     <property name="text">
+      <string>纬度（度）：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="latitudeLineEdit"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="heightLabel">
+     <property name="text">
+      <string>海拔高度（米）：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="heightLineEdit"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="angleHLabel">
+     <property name="text">
+      <string>水平角（度）：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLineEdit" name="angleHLineEdit"/>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="angleVLabel">
+     <property name="text">
+      <string>俯仰角（度）：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QLineEdit" name="angleVLineEdit"/>
+   </item>
+   <item row="10" column="0" colspan="2">
+    <widget class="QLabel" name="otherLabel">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.522388 rgba(0, 0, 0, 255), stop:1 rgba(105, 15=85, 155, 255));</string>
+     </property>
+     <property name="text">
+      <string>其他：</string>
+     </property>
+     <property name="margin">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="commandPostLabel">
+     <property name="text">
+      <string>指挥所：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QComboBox" name="commandPostComboBox"/>
+   </item>
+   <item row="12" column="0">
+    <widget class="QLabel" name="baseLabel">
+     <property name="text">
+      <string>基地：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QComboBox" name="baseComboBox"/>
+   </item>
+   <item row="13" column="0">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>235</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,81 @@
+/**********主页面**********/
+QMainWindow#MAP_GUI_MainWindow {
+        background: rgb(223,233,245);
+}
+
+/**********状态栏**********/
+QStatusBar#statusBar {
+        background: rgb(223,233,245);
+}
+
+/**********RibbornBar**********/
+QTabWidget#RibbornMenu::pane {
+        border: rgb(0, 0, 0);
+        background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #FFFFFF, stop:1 #DFE9F5);
+        color:rgb(255, 255, 255);
+}
+
+QTabWidget#RibbornMenu::tab-bar {
+        border: none;
+}
+
+QFrame#RibbornFrame {
+        border: none;
+        background: rgb(238,244,254);
+        height: 30px;
+}
+
+QPushButton#m_FilePtn {
+        color: rgb(0, 0, 0);
+        background: rgb(238,244,254);
+        height: 22px;
+        min-width: 80px;
+        font: 11pt "Microsoft Yahei";
+        border:none;
+}
+
+QPushButton#m_FilePtn::menu-indicator {
+        image: none;
+}
+
+QPushButton#m_FilePtn:hover {
+        background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #F7F5F4, stop:1 #EFE8CF);
+        color: rgb(0, 0, 0);
+}
+
+QPushButton#m_FilePtn:pressed {
+        background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #FDCE8B, stop:1 #FDC15D);
+        color: rgb(0, 0, 0);
+}
+
+/**********导航表格**********/
+QTreeWidget{
+        background-color:rgba(255, 255, 255);
+        color:rgb(0 ,0 ,0);
+        border:none;
+}
+QTreeWidget::Item:hover {
+        background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #F7F5F4, stop:1 #EFE8CF);
+        color: rgb(0, 0, 0);
+}
+QTreeWidget::item:selected {
+        background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #FDCE8B, stop:1 #FDC15D);
+        color: rgb(0, 0, 0);
+}
+
+/**********工具按钮**********/
+QToolButton  { 
+        border: none; 
+        color: rgb(0, 0, 0); 
+        background: transparent; 
+}
+
+QToolButton:enabled:hover{
+        background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #F7F5F4, stop:1 #EFE8CF);
+        color: rgb(0, 0, 0);
+}
+
+QToolButton:enabled:pressed{
+        background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #FDCE8B, stop:1 #FDC15D);
+        color: rgb(0, 0, 0);
+}
